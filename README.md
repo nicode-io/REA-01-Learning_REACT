@@ -15,6 +15,7 @@ My main goals are to learn more about functional programming with an obvious foc
 
 
 -   [1. Welcome to REACT](#1.-welcome-to-react)
+-   [1. Welcome to REACT](#2.-javascript-for-react)
 -   [Achievements](#achievements)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
@@ -23,6 +24,10 @@ My main goals are to learn more about functional programming with an obvious foc
 >   Branch 1-welcome_to_react 
 In this part I learn more about REACT development's history. 
 I also learn the tools needed to create a REACT development environment with developer tools, node.js, etc...
+
+### 2. JavaScript for REACT
+>   Branch 2-javascript_for_react
+
 
 
 ### Achievements 
