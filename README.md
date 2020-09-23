@@ -1,4 +1,3 @@
-TW-Cogip
 # LEARNING REACT 
 > Modern patterns for Developing REACT Apps
 
@@ -15,18 +14,43 @@ My main goals are to learn more about functional programming with an obvious foc
 
 
 -   [1. Welcome to REACT](#1.-welcome-to-react)
+-   [1. JavaScript for REACT](#2.-javascript-for-react)
 -   [Achievements](#achievements)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
 
 ### 1. Welcome to REACT
->   Branch 1-welcome_to_react 
+>   Branch 1-welcome_to_react   
+
 In this part I learn more about REACT development's history. 
 I also learn the tools needed to create a REACT development environment with developer tools, node.js, etc...
 
+### 2. JavaScript for REACT
+>   Branch 2-javascript_for_react
+
+*   Memento 1 
+    >   memento1.js 
+    *   Template strings @line 14
+    *   Passing arguments in function @line 31
+    *   Default Argument @line 37
+    *   Arrow functions @line 43
+    *   Returning objects in arrow function @line 60
+    *   Destructuring object @line 68
+    *   Destructuring arrays @line 82
+    *   Object literal enhancement @line 88
+    *   The Spread operator @line 105
+*   Memento 2
+    >   memento2.js
+    *   Fetch - XMLHttpRequest mandatory - line 10
+    *   Simple promise with Fetch - line 13
+    *   Async / Await - line 20
+    *   Building promises - line 33
+    *   Classes - line 51
+
 
 ### Achievements 
-- Configure tools for a great REACT development environment
+-   Configure tools for a great REACT development environment
+-   Refresh / Upgrade JavaScript vanilla's stack
 
 
 
