@@ -1,4 +1,4 @@
-const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+const XMLHttpRequest = require("xhr2");
 
 const getFakeMembers = count => new Promise((resolves, rejects) => {
     const api = `https://api.randomuser.me/?nat=US&results=${count}`
