@@ -14,10 +14,13 @@ My main goals are to learn more about functional programming with an obvious foc
 
 -   [1. Welcome to REACT](#1.-welcome-to-react)
 -   [2. JavaScript for REACT](#2.-javascript-for-react)
--   [3. Functional programming](#2.-functional-programing)
+-   [3. Functional programming](#3.-functional-programming)
+-   [4. How REACT works](#4.-how-react-works)
 -   [Achievements](#achievements)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
+
+---
 
 ### 1. Welcome to REACT
 >   Branch 1-welcome_to_react   
@@ -47,7 +50,7 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Building promises - line 33
     *   Classes - line 51
 
-### 3.  Functional programming
+### 3. Functional programming
 >   Branch 3-functional_programming
 
 *   Memento 3-1
