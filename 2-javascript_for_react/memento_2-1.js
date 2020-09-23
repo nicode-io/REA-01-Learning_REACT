@@ -1,15 +1,15 @@
 // Chapter 2. Javascript for REACT - Memento 2.1
 
 // INDEX
-// - Template strings @line 14
-// - Passing arguments in function @line 31
-// - Default Argument @line 37
-// - Arrow functions @line 43
-// - Returning objects in arrow function @line 60
-// - Destructuring object @line 68
-// - Destructuring arrays @line 82
-// - Object literal enhancement @line 88
-// - The Spread operator @line 105
+// @14  Template strings @line 14
+// @31  Passing arguments in function @line 31
+// @37  Default Argument @line 37
+// @43  Arrow functions @line 43
+// @60  Returning objects in arrow function @line 60
+// @68  Destructuring object @line 68
+// @82  Destructuring arrays @line 82
+// @88  Object literal enhancement @line 88
+// @105 The Spread operator @line 105
 
 // Template String
     let lastName = 'Denoël';
