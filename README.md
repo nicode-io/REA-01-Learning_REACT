@@ -67,6 +67,16 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Composition
     *   Start the clock
 
+### 4.  How REACT works
+>   Branch 4-how_react_works
+
+*  First components
+    >   chapter_four.html & chapter_four.js
+    *   Page setup
+    *   React elements
+    *   ReactDOM / children
+    *   React components
+
 ### Achievements 
 *   Configure tools for a great REACT development environment
 *   Refresh / Upgrade JavaScript vanilla's stack
@@ -75,6 +85,9 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Transforming data
     *   High-order functions
     *   Composition
+*   Setup React in HTML 
+*   Create basic components
+*   Use map.array to generate unordered list 
 
 
 ---
