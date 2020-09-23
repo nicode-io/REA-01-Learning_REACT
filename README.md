@@ -1,4 +1,3 @@
-TW-Cogip
 # LEARNING REACT 
 > Modern patterns for Developing REACT Apps
 
