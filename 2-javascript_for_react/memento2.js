@@ -1,9 +1,11 @@
 // Chapter 2. Javascript for REACT - Memento 2
 
 // INDEX
-// - Fetch - XMLHttpRequest mandatory line
-// - Simple promise with Fetch 
-// - Async / Await
+// - Fetch - XMLHttpRequest mandatory - line 10
+// - Simple promise with Fetch - line 13
+// - Async / Await - line 20
+// - Building promises - line 32
+// - Classes - line 54
 
 // Fetch mandatory line
     const fetch = require("node-fetch"); // Allow use of FETCH 
@@ -28,7 +30,7 @@
     // getFakePerson();
 
 //  Building Promises (not working)
-    const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+    // const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 //     const getFakeMembers = count => new Promise((resolves, rejects) => {
 //     const api = `https://api.randomuser.me/?nat=US&results=${count}`
 //     const request = new XMLHttpRequest()
@@ -46,6 +48,8 @@
 //     err => console.error(
 //         new Error("cannot load members from randomuser.me"))
 //   )
+
+
 
 // Classes
     class Vacation {
