@@ -1,4 +1,4 @@
-// Chapter 2. Javascript for REACT - Memento 1
+// Chapter 2. Javascript for REACT - Memento 2.1
 
 // INDEX
 // - Template strings @line 14

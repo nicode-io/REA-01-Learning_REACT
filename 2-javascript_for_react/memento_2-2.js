@@ -1,4 +1,4 @@
-// Chapter 2. Javascript for REACT - Memento 2
+// Chapter 2. Javascript for REACT - Memento 2.2
 
 // INDEX
 // - Fetch & XMLHttpRequest mandatory - line 10
