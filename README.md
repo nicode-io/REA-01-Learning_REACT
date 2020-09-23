@@ -1,6 +1,5 @@
-# LEARNING REACT 
+# (◉ ͜ʖ◉))ﾉ彡 LEARNING REACT ✧٩(•́⌄•́๑)
 > Modern patterns for Developing REACT Apps
-
 
 
 ### Description 
@@ -14,7 +13,8 @@ My main goals are to learn more about functional programming with an obvious foc
 
 
 -   [1. Welcome to REACT](#1.-welcome-to-react)
--   [1. JavaScript for REACT](#2.-javascript-for-react)
+-   [2. JavaScript for REACT](#2.-javascript-for-react)
+-   [3. Functional programming](#2.-functional-programing)
 -   [Achievements](#achievements)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
@@ -28,8 +28,8 @@ I also learn the tools needed to create a REACT development environment with dev
 ### 2. JavaScript for REACT
 >   Branch 2-javascript_for_react
 
-*   Memento 1 
-    >   memento1.js 
+*   Memento 2-1 
+    >   memento_2-1.js 
     *   Template strings @line 14
     *   Passing arguments in function @line 31
     *   Default Argument @line 37
@@ -39,19 +39,42 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Destructuring arrays @line 82
     *   Object literal enhancement @line 88
     *   The Spread operator @line 105
-*   Memento 2
-    >   memento2.js
+*   Memento 2-2
+    >   memento_2-2.js
     *   Fetch - XMLHttpRequest mandatory - line 10
     *   Simple promise with Fetch - line 13
     *   Async / Await - line 20
     *   Building promises - line 33
     *   Classes - line 51
 
+### 3.  Functional programming
+>   Branch 3-functional_programming
+
+*   Memento 3-1
+    >   memento_3-1.js
+    *   Imperative vs Declarative
+    *   Data transformation - Filter 
+    *   Data transformation - Map 
+    *   Data transformation - Reduce
+    *   Recursion
+    *   Composition
+    *   High-order function
+*   Memento 3-2
+    >   memento_3-2.js
+    *   Functions over values
+    *   Transforming data
+    *   Higher-order functions
+    *   Composition
+    *   Start the clock
 
 ### Achievements 
--   Configure tools for a great REACT development environment
--   Refresh / Upgrade JavaScript vanilla's stack
-
+*   Configure tools for a great REACT development environment
+*   Refresh / Upgrade JavaScript vanilla's stack
+*   Functional programming overview
+    *   Functions over values
+    *   Transforming data
+    *   High-order functions
+    *   Composition
 
 
 ---

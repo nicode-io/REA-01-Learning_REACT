@@ -1,11 +1,11 @@
-// Chapter 2. Javascript for REACT - Memento 2
+// Chapter 2. Javascript for REACT - Memento 2.2
 
 // INDEX
-// - Fetch & XMLHttpRequest mandatory - line 10
-// - Simple promise with Fetch - line 13
-// - Async / Await - line 20
-// - Building promises - line 33
-// - Classes - line 51
+// @10 Fetch & XMLHttpRequest mandatory
+// @13 Simple promise with Fetch
+// @20 Async / Await
+// @33 Building promises
+// @51 Classes
 
 // Fetch & XMLHttpRequest mandatory line
     const fetch = require("node-fetch"); // Allow use of FETCH 
