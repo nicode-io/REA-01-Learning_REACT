@@ -38,11 +38,14 @@ My main goals are to learn more about functional programming with an obvious foc
 *   Use webpack to create an app
 *   Use create-react-app package 
 *   Use Babel for compiling code
+*   Create hooks
+*   Manage contexts
+*   Create production build
 
 ---
 
 ### 1. Welcome to REACT
->   Branch 1-welcome_to_react   
+>   Branch feature/1-welcome_to_react   
 
 In this part I learn more about REACT development's history. 
 I also learn the tools needed to create a REACT development environment with developer tools, node.js, etc...
@@ -50,7 +53,7 @@ I also learn the tools needed to create a REACT development environment with dev
 ---
 
 ### 2. JavaScript for REACT
->   Branch 2-javascript_for_react
+>   Branch feature/2-javascript_for_react
 
 *   Memento 2-1 
     >   memento_2-1.js 
@@ -74,7 +77,7 @@ I also learn the tools needed to create a REACT development environment with dev
 ---
 
 ### 3. Functional programming
->   Branch 3-functional_programming
+>   Branch feature/3-functional_programming
 
 *   Memento 3-1
     >   memento_3-1.js
@@ -96,7 +99,7 @@ I also learn the tools needed to create a REACT development environment with dev
 ---
 
 ### 4.  How REACT works
->   Branch 4-how_react_works
+>   Branch feature/4-how_react_works
 
 *  First components
     >   chapter_four.html & chapter_four.js
@@ -108,7 +111,7 @@ I also learn the tools needed to create a REACT development environment with dev
 ---
 
 ### 5.  REACT with JSX & Webpack
->   Branch 5-react_with_jsx
+>   Branch feature/5-react_with_jsx
 
 *   Components & REACT Fragments
     >   chapter_five.html & chapter_five.js
@@ -175,12 +178,17 @@ I also learn the tools needed to create a REACT development environment with dev
 ---
 
 ### 6.  REACT State Management
->   Branch 6-react_state_management
+>   Branch feature/6-react_state_management
 
 *   Star Rating application
 *   Color Rating application
 *   Color Provider and Rating application
-
+    *   Choose a color to add within a color picker
+    *   Choose your custom name for your color
+    *   Add your custom color
+    *   Delete a color
+    *   Rate your color within a star rating component
+    *   Upgrade / Downgrade your rating at every moment
 
 ---
 
