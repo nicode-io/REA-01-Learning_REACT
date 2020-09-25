@@ -9,7 +9,6 @@
 This project is my learning path to REACT. It will be done while reading the book "Learning REACT" written by Alex Banks & Eve Porcello.
 My main goals are to learn more about functional programming with an obvious focus on JavaScript, learning how REACT works and create my components with the best logic/syntax I can.
 
-
 ###  Index
 
 -   [Achievements](#achievements)
@@ -108,6 +107,70 @@ I also learn the tools needed to create a REACT development environment with dev
 
 ---
 
+### 5.  REACT with JSX & Webpack
+>   Branch 5-react_with_jsx
+
+*   Components & REACT Fragments
+    >   chapter_five.html & chapter_five.js
+    *   Recipe component
+    *   Use array of objects as props
+    *   Create fragment to avoid useless tags
+
+*   Webpack application
+    >   recipes-app folder
+
+    *   Webpack step-by-step: React + Babel
+        *   Create and navigate in your project folder
+        *   ```$ npm init -y``` create npm environment with default choices 
+        *   ```$ npm install react react-dom serve```
+        *   Create app skelethon (example) :
+            -   node_modules (already created)
+            -   package.json (already created)
+            -   package-lock.json (already created)
+            -   index.html
+            -   /src (folder)
+                -   index.js
+                -   /data (folder)
+                    -   app-name.json   
+                -   /components (folder)
+                    -   ComponentNameOne.js
+                    -   ComponentNameTwo.js
+                    -   ...
+        *   Create your differents components, linked them with import/export and make the final join in your index.js
+        *   ```$ npm install --save-dev webpack webpack-li``` 
+        *   At the root of your project, create a file called **webpack.config.js**
+        *   Check if your **dependency tree** is ok: check if evryone component is imported to another and then if the parent component is import to its own parent etc, until you reach **index.js** file
+        *   Note that the used import statements are not presently supported by most browsers or by node.js, the reason why we will use Babel who will convert them into classic 'require('path.file')
+        *   ```$ npm installl babel-loader @babel/core --save-dev``` 
+        *   Edit your **webpack.config.js** file (see example)
+            *   Set entry point
+            *   Set output point
+            *   Set source map (debugger help in browser)
+            *   Define module special configuration
+            *   ...
+        *   ```$ npm install @babel/preset-env @babel/preset-react --save-dev``` to install presets for Babel, wich tells Babel how to compile our code
+        *   At the root of your project, create a file called **.babelrc**
+        *   Add the following lines:    
+            ```{```     
+            ```     "presets": ["@babel/preset-env", "@babel/preset-react"]```  
+            ```}``` 
+        *   ```$ npx webpack --mode development```
+        *   You can add npm script adding this to your **package.json** file :  
+            ```"scripts":{```   
+            ```     "build": "webpack --mode production"```  
+            ```}```  
+            Then use ```$ npm run build``` to create the bundle
+    
+*   Create REACT app command
+    >   create-react-app folder (result of following commands)
+
+    *   ```$ npm install -g create-react-app``` as this install is global you may need sudo privileges to run it
+    *   ```$ create-react-app project-folder-name```
+    *   Within the project folder: O
+        *   Open **src/App.js**, here you can configure the root component and import other component files
+        *   Run ```$ npm start``` to run application, ```$ yarn start``` also works
+        *   Run ```$ npm test``` or ```$ yarn test``` to run test of all files in interactive mode
+        *   Build the bundle with ```$ npm run build``` or ```$ yarn build```     
 
 ---
 
