@@ -174,6 +174,16 @@ I also learn the tools needed to create a REACT development environment with dev
 
 ---
 
+### 6.  REACT State Management
+>   Branch 6-react_state_management
+
+*   Star Rating application
+*   Color Rating application
+*   Color Provider and Rating application
+
+
+---
+
 ### **BeCode** Intensive Bootcamp     
 This project took place in my leearning path in BeCode (see below) to full stack web developer.
 In seven months you have a wonderful luck to become a great web developer. Inclusion and share spirit is your daily feeling !  
