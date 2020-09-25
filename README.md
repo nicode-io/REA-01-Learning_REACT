@@ -1,6 +1,7 @@
 # (◉ ͜ʖ◉))ﾉ彡 LEARNING REACT ✧٩(•́⌄•́๑)
 > Modern patterns for Developing REACT Apps
 
+![](react-logo.png)
 
 ### Description 
 > Start 23-09-2020
@@ -11,19 +12,43 @@ My main goals are to learn more about functional programming with an obvious foc
 
 ###  Index
 
-
+-   [Achievements](#achievements)
 -   [1. Welcome to REACT](#1.-welcome-to-react)
 -   [2. JavaScript for REACT](#2.-javascript-for-react)
--   [3. Functional programming](#2.-functional-programing)
--   [Achievements](#achievements)
+-   [3. Functional programming](#3.-functional-programming)
+-   [4. How REACT works](#4.-how-react-works)
+-   [5. REACT with JSX & Webpack](#5.-react-with-jsx-&-webpack)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
+
+---
+
+### Achievements 
+*   Configure tools for a great REACT development environment
+*   Refresh / Upgrade JavaScript vanilla's stack
+*   Functional programming overview
+    *   Functions over values
+    *   Transforming data
+    *   High-order functions
+    *   Composition
+*   Setup React in HTML 
+*   Create basic components
+*   Use map.array to generate unordered list 
+*   Create REACT fragments
+*   Use import / export - create dependecy tree
+*   Use webpack to create an app
+*   Use create-react-app package 
+*   Use Babel for compiling code
+
+---
 
 ### 1. Welcome to REACT
 >   Branch 1-welcome_to_react   
 
 In this part I learn more about REACT development's history. 
 I also learn the tools needed to create a REACT development environment with developer tools, node.js, etc...
+
+---
 
 ### 2. JavaScript for REACT
 >   Branch 2-javascript_for_react
@@ -47,7 +72,9 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Building promises - line 33
     *   Classes - line 51
 
-### 3.  Functional programming
+---
+
+### 3. Functional programming
 >   Branch 3-functional_programming
 
 *   Memento 3-1
@@ -67,6 +94,8 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Composition
     *   Start the clock
 
+---
+
 ### 4.  How REACT works
 >   Branch 4-how_react_works
 
@@ -77,21 +106,10 @@ I also learn the tools needed to create a REACT development environment with dev
     *   ReactDOM / children
     *   React components
 
-### Achievements 
-*   Configure tools for a great REACT development environment
-*   Refresh / Upgrade JavaScript vanilla's stack
-*   Functional programming overview
-    *   Functions over values
-    *   Transforming data
-    *   High-order functions
-    *   Composition
-*   Setup React in HTML 
-*   Create basic components
-*   Use map.array to generate unordered list 
+---
 
 
 ---
-
 
 ### **BeCode** Intensive Bootcamp     
 This project took place in my leearning path in BeCode (see below) to full stack web developer.
