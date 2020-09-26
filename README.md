@@ -18,6 +18,9 @@ Enjoying power of hooks and modern patterns using the last upgrades of REACT.
 -   [3. Functional programming](#3.-functional-programming)
 -   [4. How REACT works](#4.-how-react-works)
 -   [5. REACT with JSX & Webpack](#5.-react-with-jsx-&-webpack)
+-   [6.  REACT State Management](#6.-react-state-management)
+-   [7. Enhancing components with Hooks](#7.-enhancing-components-with-hooks)
+-   [8. Incorporating Data](#8.-incorporating-data)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
 
@@ -194,16 +197,33 @@ I also learn the tools needed to create a REACT development environment with dev
 ---
 
 ### 7. Enhancing components with Hooks
->   Branch feature/7-react_state_management
-*   Star Rating application
-*   Color Rating application
-*   Color Provider and Rating application
-    *   Choose a color to add within a color picker
-    *   Choose your custom name for your color
-    *   Add your custom color
-    *   Delete a color
-    *   Rate your color within a star rating component
-    *   Upgrade / Downgrade your rating at every moment
+>   Branch feature/7-enhancing_components_with_hooks
+
+*   **useEffect** when you you want to do some actions after rendering the DOM  
+    Examples:   
+    *   Save a state value to Local Storage 
+    *   Focus on a specific text input that has been added
+    *   ...
+*   Associated **Dependency Array** to **Hooks** to avoid multiple and useless rendering
+*   **useMemo** for calculating *memoized* value, a technique to improve performance, you compare value with memoized value that you cached before. Then React will render the value only if it's different from memoized one.
+*   **useCallback** works like *useMemo* but it memoizes functions instead of values. *useMemo* doesn't work for function as in JavaScript every instance of the same function is consider different from the previous one.
+*   **useLayoutEffect** is different from *useEffect*, it will be execute before DOM rendering, for example when you need to:
+    *   Know the size of a container
+    *   Know the position of mouses's cursor
+    *   ...
+*   Rules to follow with Hooks to avoid common gotchas:
+    *   Hooks only run in the scope of a component
+    *   It's a good idea to break functionality out into multiple Hooks
+    *   Hooks should only be called at the top level, so not into condtional statements, loops or nested functions
+*   **useReducer** can simplify basics comparaison and is also a great tool to handle complex state
+*   When to refactor ? Refactoring should be done as a last step, or with a specific goal. It can looses many of your time and React concept is based on muliple rendering so refactor when it's appropriate. 
+
+---
+
+### 8. Incorporating Data
+>   Branch feature/8-incorporating_data
+
+
 
 ---
 
