@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import GitHubUser from "./components/GitHubUser";
+import GitHubUserTwo from "./components/GitHubUserTwo";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GitHubUserTwo login="simonduquaine" />
+      <GitHubUserTwo login="delvaux1986" />
+      <GitHubUserTwo login="M-Shmayssany" />
+      <GitHubUserTwo login="DewerseB" />
+      <GitHubUserTwo login="nicode-io" />
+    </>
   );
 }
 
-export default App;
