@@ -18,6 +18,9 @@ Enjoying power of hooks and modern patterns using the last upgrades of REACT.
 -   [3. Functional programming](#3.-functional-programming)
 -   [4. How REACT works](#4.-how-react-works)
 -   [5. REACT with JSX & Webpack](#5.-react-with-jsx-&-webpack)
+-   [6.  REACT State Management](#6.-react-state-management)
+-   [7. Enhancing components with Hooks](#7.-enhancing-components-with-hooks)
+-   [8. Incorporating Data](#8.-incorporating-data)
 -   [Collaboration](#collaboration)
 -   [Timeline](#timeline)
 
@@ -204,6 +207,12 @@ I also learn the tools needed to create a REACT development environment with dev
     *   Delete a color
     *   Rate your color within a star rating component
     *   Upgrade / Downgrade your rating at every moment
+
+---
+
+### 8. Incorporating Data
+>   Branch feature/8-incorporating_data
+
 
 ---
 
