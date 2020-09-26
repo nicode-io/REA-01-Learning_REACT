@@ -193,6 +193,20 @@ I also learn the tools needed to create a REACT development environment with dev
 
 ---
 
+### 7. Enhancing components with Hooks
+>   Branch feature/7-react_state_management
+*   Star Rating application
+*   Color Rating application
+*   Color Provider and Rating application
+    *   Choose a color to add within a color picker
+    *   Choose your custom name for your color
+    *   Add your custom color
+    *   Delete a color
+    *   Rate your color within a star rating component
+    *   Upgrade / Downgrade your rating at every moment
+
+---
+
 ### **BeCode** Intensive Bootcamp     
 This project took place in my leearning path in BeCode (see below) to full stack web developer.
 In seven months you have a wonderful luck to become a great web developer. Inclusion and share spirit is your daily feeling !  
