@@ -8,6 +8,7 @@
 
 This project is my learning path to REACT. It will be done while reading the book "Learning REACT" written by Alex Banks & Eve Porcello.
 My main goals are to learn more about functional programming with an obvious focus on JavaScript, learning how REACT works and create my components with the best logic/syntax I can.
+Enjoying power of hooks and modern patterns using the last upgrades of REACT.
 
 ###  Index
 
