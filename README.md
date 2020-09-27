@@ -1,5 +1,5 @@
 # (◉ ͜ʖ◉))ﾉ彡 LEARNING REACT ✧٩(•́⌄•́๑)
-> Modern patterns for Developing REACT Apps
+> Components, Frags, Hooks and modern patterns for Developing REACT Apps
 
 ![](react-logo.png)
 
